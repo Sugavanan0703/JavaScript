@@ -29,8 +29,40 @@
 // }
 // ------------------------Loops---------------------
 // -----------While Loop-------------------
-    var a=1
-    while(a<=10){
-        console.log(a)
-        a++
+    // var a=1
+    // while(a<=10){
+    //     console.log(a)
+    //     a++
+    // }
+// ---------do While loop--------------
+    // var a=1
+    // do{
+    //     console.log(a)
+    //     a++
+    // }
+    // while(a>10)
+//---------for loop-------------
+    // for(let i=1;i<=10;i++){
+    //     console.log(i)
+    // }
+//--------for of loop---------
+    // var arr=[1,2,3,4,5]
+    // for(var a of arr){
+    //     console.log(a)
+    // }
+    //whith condition
+    // var arr=[1,2,3,4,5]
+    // for(var a of arr){
+    //     if(a%2==0){
+    //         console.log(a)
+    //     }
+    // }
+//---------for in loop---------
+    var obj={
+        name:"Sugavanan",
+        age:23,
+        gender:"Male"
+    }
+    for(var a in obj){
+        console.log(a+":"+obj[a])
     }
