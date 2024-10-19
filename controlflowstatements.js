@@ -13,17 +13,24 @@
 //     console.log("A is lesser than B")
 // }
 // ----------------------------------Switch Statements ------------------------
-var color="Black"
-switch(color){
-    case "Pink":
-        console.log("Color is Pink")
-        break
-    case "Red":
-        console.log("Color is Red")
-        break
-    case "Black":
-        console.log("Color is Black")
-        break
-    default:
-        console.log("Color not matching")
-}
+// var color="Black"
+// switch(color){
+//     case "Pink":
+//         console.log("Color is Pink")
+//         break
+//     case "Red":
+//         console.log("Color is Red")
+//         break
+//     case "Black":
+//         console.log("Color is Black")
+//         break
+//     default:
+//         console.log("Color not matching")
+// }
+// ------------------------Loops---------------------
+// -----------While Loop-------------------
+    var a=1
+    while(a<=10){
+        console.log(a)
+        a++
+    }
