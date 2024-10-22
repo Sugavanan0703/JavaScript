@@ -65,10 +65,20 @@
 // var b=parseInt(prompt("Enter the number"))
 // display(a,b)
 //---------------Arrow Function--------------
-var display=(a,b)=>{
-    return a+b
-}
-var a=parseInt(prompt("Enter the number"))
-var b=parseInt(prompt("Enter the number"))
-var res=display(a,b)
-console.log(res)
+// var display=(a,b)=>{
+//     return a+b
+// }
+// var a=parseInt(prompt("Enter the number"))
+// var b=parseInt(prompt("Enter the number"))
+// var res=display(a,b)
+// console.log(res)
+//-----------------Anonymous Function-----------
+var a=parseInt(prompt("Enter the number"));
+var b=parseInt(prompt("Enter the number"));
+
+(
+    function(a,b){
+        console.log(a+b)
+    }
+)
+(a,b);
